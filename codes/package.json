@@ -1,0 +1,35 @@
+{
+  "name": "meanworks",
+  "version": "2.3.1",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "meanworks": "meanworks.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node meanworks"
+  },
+  "author": "Azat Mardan",
+  "license": "ISC",
+  "dependencies": {
+    "adventure": "^2.11.0",
+    "adventure-verify": "^2.2.0",
+    "bower": "^1.7.7",
+    "chalk": "^1.1.1",
+    "combined-stream2": "^1.1.1",
+    "console-colors": "^1.0.1",
+    "deep-equal": "^1.0.1",
+    "generator-angular-fullstack": "^3.5.0",
+    "grunt-cli": "^1.2.0",
+    "gulp-cli": "^1.2.1",
+    "mongodb": "^2.0.43",
+    "prompt": "^0.2.14",
+    "semver": "^5.0.3",
+    "supertest": "^1.1.0",
+    "webdriverio": "^3.2.4",
+    "which": "^1.1.2",
+    "yo": "^1.7.0"
+  },
+  "repository": "https://github.com/azat-co/meanworks"
+}
